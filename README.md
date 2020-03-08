@@ -48,6 +48,9 @@ This project aims at building a pipeline that identifies each student/lecturer i
 ![emotion graph](images/download%20(6).png)
 ![frame](images/download%20(7).png)
 
+### 7. Output video (gif)
+![output video](images/result.gif)
+
 ## Phase 2:
 ![flowchart](images/phase2.png)
 
@@ -57,10 +60,7 @@ This project aims at building a pipeline that identifies each student/lecturer i
 ### 2. Face database after clipping those person faces with count below 15.
 ![face_db](images/download%20(10).png)
 
-### 3. Output video (gif)
-![output video](images/result.gif)
-
-## Emotion analysis report
+### 3. Emotion analysis report
 
 ### 1.1 Face database of (Face ID : FACE_0)
 ![face_1](images/download%20(23).png)
