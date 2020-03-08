@@ -81,10 +81,10 @@ This project aims at building a pipeline that identifies each student/lecturer i
 ![report_1](images/download%20(17).png)
 
 
-### 4.1 Face database of (Face ID :FACE_3)
+### 4.1 Face database of (Face ID :FACE_17)
 ![face_1](images/download%20(14).png)
 
-### 4.2 Emotion analysis of (Face ID :FACE_3) 
+### 4.2 Emotion analysis of (Face ID :FACE_17) 
 ![report_1](images/download%20(21).png)
 
 ## Uses
