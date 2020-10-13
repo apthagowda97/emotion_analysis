@@ -66,7 +66,8 @@ class FaceDetection:
                 y = np.clip(y,0,480)
                 h = np.clip(h,0,720)
                 w = np.clip(w,0,480)
-                faces.append(image[y:y+w,x:x+h])
+                image_copy = np.copy(image)
+                faces.append(image_copy[y:y+w,x:x+h])
                 cords.append([x,y,h,w])
                 cv2.rectangle(image, (xmin, ymin), (xmax, ymax), (255,0,0), 2)
         return image,faces,cords

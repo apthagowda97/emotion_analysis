@@ -1,0 +1,10 @@
+INFO:root:=================================================================================
+INFO:root:Precision(detection,emotions,reidentification): FPFP32-INT8,FPFP32-INT8,FPFP32-INT8
+INFO:root:3 models load time: 3.6893sec
+INFO:root:face detection model avg inference per frame: 0.0203sec
+INFO:root:emotion recognition model avg inference per frame: 0.0035sec
+INFO:root:face reidentification model avg inference per frame: 0.0105sec
+INFO:root:3 Model avg inference per frame: 0.0845sec
+INFO:root:Total inference time: 36.3616sec
+INFO:root:====================================END==========================================
+

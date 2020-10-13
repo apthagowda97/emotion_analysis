@@ -9,7 +9,7 @@ class InputFeeder:
         input_file: str, The file that contains the input image or video file. Leave empty for cam input_type.
         '''
         self.input_type=input_type
-        if input_type=='video' or input_type=='image':
+        if input_type=='video':
             self.input_file=input_file
     
     def load_data(self):
@@ -17,8 +17,6 @@ class InputFeeder:
             self.cap=cv2.VideoCapture(self.input_file)
         elif self.input_type=='cam':
             self.cap=cv2.VideoCapture(0)
-        else:
-            self.cap=cv2.imread(self.input_file)
 
     def next_batch(self):
         '''
@@ -35,5 +33,4 @@ class InputFeeder:
         '''
         Closes the VideoCapture.
         '''
-        if not self.input_type=='image':
-            self.cap.release()
+        self.cap.release()
