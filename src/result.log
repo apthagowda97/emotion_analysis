@@ -8,3 +8,29 @@ INFO:root:3 Model avg inference per frame: 0.0845sec
 INFO:root:Total inference time: 36.3616sec
 INFO:root:====================================END==========================================
 
+INFO:root:=================================================================================
+INFO:root:Precision(detection,emotions,reidentification): FPFP16,FPFP16,FPFP16
+INFO:root:3 models load time: 1.8282sec
+INFO:root:face detection model avg inference per frame: 0.0138sec
+INFO:root:emotion recognition model avg inference per frame: 0.0021sec
+INFO:root:face reidentification model avg inference per frame: 0.0087sec
+INFO:root:3 Model avg inference per frame: 0.0792sec
+INFO:root:Total inference time: 37.1727sec
+INFO:root:====================================END==========================================
+
+INFO:root:=================================================================================
+INFO:root:Precision(detection,emotions,reidentification): FP16,FP16,FP16
+INFO:root:3 models load time: 1.5213sec
+INFO:root:=================================================================================
+INFO:root:Precision(detection,emotions,reidentification): FP16,FP16,FP16
+INFO:root:3 models load time: 1.3311sec
+INFO:root:=================================================================================
+INFO:root:Precision(detection,emotions,reidentification): FP16,FP16,FP16
+INFO:root:3 models load time: 1.2656sec
+INFO:root:face detection model avg inference per frame: 0.0103sec
+INFO:root:emotion recognition model avg inference per frame: 0.0033sec
+INFO:root:face reidentification model avg inference per frame: 0.0076sec
+INFO:root:3 Model avg inference per frame: 0.0764sec
+INFO:root:Total inference time: 64.7818sec
+INFO:root:====================================END==========================================
+
